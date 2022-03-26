@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+/*Navigation Bar*/ 
+
+#nav_content{
+     margin: 10px;
+     margin-left: 100px;
+}
+.nav-link{
+    color: #ffa32b;
+}
+.call{
+    font-weight: bold;
+    margin-left: 40px;
+}
+.binary{
+    margin-left: 217px;
+}
+.nav_num{
+    color: black;
+}
+.nav_item a{
+    word-spacing: 15px;
+}
+
+ /*First PAge*/
+
+#first_page{
+    background-color: #e9f0e4;
+}
+#readmore{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 110px;
+}
+#main_content{
+    padding-left: 250px;
+    display: inline-block;
+    color: #59200f;
+    margin-top: 40px;
+}
+#main_content h1{
+    font-weight: bold;
+}
+
+/*Todo List*/
+
+.card {
+    height: 450px;
+    width: 350px;
+    background-color: #59200f;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    background-color: #ffa32b ;
+    left: 0px;
+    border-radius: 5px;
+}
+.progress-bar {
+    margin-top: 30px;
+    list-style: none;
+    background-color: unset;
+
+}
+.bg-first {
+    background-color: #E9F0E4;
+}
+.card ul li{
+    text-align: left;
+    border-bottom: 1px solid white;
+    padding:  30px;
+    /*text-indent: -1em;*/
+}
+#btnsend{
+    margin-left: 108px;
+    width: 70px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*Second Page*/
+
+#foodpackage{
+    text-align: center;
+}
+.packegeclr{
+    color: #59200f;
+}
+.foodclr{
+    color: #ffa32b ;
+}
+.contentbox{
+    text-align: center;
+}
+.content{
+    margin: auto;
+}
+.homemade{position: relative; top:-80px;}
+.egg{margin-top: -80px;}
+.servics{
+    display: inline-block;
+    box-sizing:border-box;
+    cursor: pointer;
+    height: 350px;
+    margin: 10px;
+}
+.servics{
+    margin-top: 100px;
+    background: #59200f;
+    color: white;
+}
+.servics p{
+   color: white;
+   font-size: 14px;
+   padding: 10px;
+}
+
+/*Third Page*/
+
+.content2{
+    display: inline-block;
+    box-sizing: content-box;
+    cursor:pointer;
+    background:#edaf02;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 250px;
+    width: auto;
+    margin: 10px;
+}
+.content2 p{
+    color: white;
+    margin-top: 20px;
+}
+.step_clr{
+    color: #edaf02;
+    font-weight: bold;
+}
+.step_clr1{
+    color: #59200f;
+    font-weight: bold;
+}
+.corner-circle1, .corner-circle2, .corner-circle3{
+    position: relative;  
+    left: -20px;
+    top: -10px;
+    background-color: #59200f;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 50px; 
+    width: 50px;
+}
+
+/*Fourth Page*/
+
+#client-says{
+     background-color: #59200f;
+     margin-top: 50px;
+}
+.food4_img{
+    height: 600px;
+    margin: 0px;
+    margin-right: auto;
+}
+.food_margin{ 
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+.cli_content h3{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.say{
+    color: white;
+}
+.mark_clr{ 
+    color: #edaf02; 
+}
+.mark_du{
+    margin-top: 100px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+.client_img{
+    position: relative;
+    top:-85px;
+}
+.mark_p{
+    margin-top: -70px;
+}
+.mark_p img{
+    margin-bottom: 18px;
+    height: 20px;
+}
+.circle{
+    text-align: center;
+}
+.circle i{
+    color: white;
+}
+
+/*Fifth Page*/
+
+.end_content{
+    margin-top: 60px;
+    text-align: center;
+}
+.end_p{
+    color: #edaf02;
+}
+.get_btn{
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    text-align: center;
+    width: 120px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    background-color: #59200f;
+    margin-top: 40px;
+}
+.copyright p{
+    margin-top: 8px;
+    font-size: 12px;
+    padding: 15px;
+}
+
+@media only screen and (max-device-width: 480px) {
+     #main_content{
+        padding-left: 130px;
+     }
+
+
+
+
+}
