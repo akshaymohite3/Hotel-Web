@@ -260,13 +260,16 @@
 }
 @media only screen and (min-device-width: 360px) and (max-device-width: 740px){
       .binary{
-           margin-left: 100px;
+           margin-left: 76px;
       }
       #nav_content{
          margin-left: 189px;
       }
       .food_margin{
            margin-top: 206px;
+      }
+      #main_content{
+           padding-left: 104px;
       }
 }
 @media only screen and (min-device-width: 540px) and (max-device-width: 720px){
@@ -277,3 +280,9 @@
            margin-left: 77px;
       }
 }
+@media (max-width: 320px){
+        .binary{
+            
+        }
+    }
+
