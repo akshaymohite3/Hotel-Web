@@ -12,13 +12,14 @@
 }
 .nav-link{
     color: #ffa32b;
+    padding-left: 1.4rem;
 }
 .call{
     font-weight: bold;
     margin-left: 40px;
 }
 .binary{
-    margin-left: 217px;
+    margin-left: 140px;
 }
 .nav_num{
     color: black;
@@ -39,7 +40,7 @@
     width: 110px;
 }
 #main_content{
-    padding-left: 250px;
+    padding-left: 173px;
     display: inline-block;
     color: #59200f;
     margin-top: 40px;
@@ -235,19 +236,44 @@
     text-align: center;
     background-color: #59200f;
     margin-top: 40px;
+    max-inline-size: -webkit-fill-available;
 }
 .copyright p{
     margin-top: 8px;
     font-size: 12px;
     padding: 15px;
 }
-
-@media only screen and (max-device-width: 480px) {
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
      #main_content{
-        padding-left: 130px;
+       padding-left:140px;
+     }
+     .binary{
+      margin-left: 105px;
+     }
+     #nav_content{
+        margin-left: 187px;
+     }
+     .food_margin{
+        margin-top: 197px;
      }
 
-
-
-
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px){
+      .binary{
+           margin-left: 100px;
+      }
+      #nav_content{
+         margin-left: 189px;
+      }
+      .food_margin{
+           margin-top: 206px;
+      }
+}
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px){
+       #main_content{
+           padding-left: 109px;
+       }
+       .binary{
+           margin-left: 77px;
+      }
 }

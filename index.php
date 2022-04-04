@@ -55,7 +55,7 @@
 </div>
 </div>
 
-<div class="container" id="foodpackage">
+<div class="container mt-5" id="foodpackage">
 	<div class="contentbox">
       <h2><span class="foodclr">Food</span> <span class="packegeclr">Packages</span></h2>
       <p>There are many variation of passages of Lorem Ipsum available,but the majorityomised words which don't look<br>even slightly believable</p>
@@ -139,10 +139,8 @@
     <button class="get_btn">Get A Quote</button>
   </div>
 </div>
-<div class="container-fluid">
-  <div class="copyright">
+<div class="container copyright">
     <p>Copyright 2022 All Right Reserved.</p>
-  </div>
 </div>    
 </body>
 </html>
